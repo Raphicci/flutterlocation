@@ -111,7 +111,6 @@ public class LocationPlugin implements FlutterPlugin, ActivityAware {
     private void tearDown() {
         activityBinding.removeActivityResultListener(location);
         activityBinding.removeRequestPermissionsResultListener(location);
-        location = null;
     }
 
 }
